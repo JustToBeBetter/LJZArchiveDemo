@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A97CD68824108D6800CA4B39 /* 归档.zip in Resources */ = {isa = PBXBuildFile; fileRef = A97CD68724108D6800CA4B39 /* 归档.zip */; };
 		E81760351E2C944E001476E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E81760341E2C944E001476E0 /* main.m */; };
 		E81760381E2C944E001476E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E81760371E2C944E001476E0 /* AppDelegate.m */; };
 		E817603B1E2C944E001476E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E817603A1E2C944E001476E0 /* ViewController.m */; };
@@ -48,7 +49,6 @@
 		E81760FE1E2C9B9D001476E0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E81760FD1E2C9B9D001476E0 /* libz.tbd */; };
 		E81761011E2C9C0F001476E0 /* LJZUnArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = E81761001E2C9C0F001476E0 /* LJZUnArchive.m */; };
 		E81761041E2C9CB2001476E0 /* eclipse.rar in Resources */ = {isa = PBXBuildFile; fileRef = E81761021E2C9CB2001476E0 /* eclipse.rar */; };
-		E81761051E2C9CB2001476E0 /* 归档.zip in Resources */ = {isa = PBXBuildFile; fileRef = E81761031E2C9CB2001476E0 /* 归档.zip */; };
 		E81761081E2CB330001476E0 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81761071E2CB330001476E0 /* WebViewController.m */; };
 		E817610F1E2E0AB1001476E0 /* example_pwd.rar in Resources */ = {isa = PBXBuildFile; fileRef = E817610C1E2E0AB1001476E0 /* example_pwd.rar */; };
 		E81761101E2E0AB1001476E0 /* example.7z in Resources */ = {isa = PBXBuildFile; fileRef = E817610D1E2E0AB1001476E0 /* example.7z */; };
@@ -73,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A97CD68724108D6800CA4B39 /* 归档.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "归档.zip"; sourceTree = "<group>"; };
 		E81760301E2C944E001476E0 /* LJZArchiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJZArchiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81760341E2C944E001476E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E81760361E2C944E001476E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -204,7 +205,6 @@
 		E81760FF1E2C9C0F001476E0 /* LJZUnArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZUnArchive.h; sourceTree = "<group>"; };
 		E81761001E2C9C0F001476E0 /* LJZUnArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZUnArchive.m; sourceTree = "<group>"; };
 		E81761021E2C9CB2001476E0 /* eclipse.rar */ = {isa = PBXFileReference; lastKnownFileType = file; path = eclipse.rar; sourceTree = "<group>"; };
-		E81761031E2C9CB2001476E0 /* 归档.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "归档.zip"; sourceTree = "<group>"; };
 		E81761061E2CB330001476E0 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		E81761071E2CB330001476E0 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		E817610A1E2CB446001476E0 /* LJZArchivePrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJZArchivePrefix.pch; sourceTree = "<group>"; };
@@ -278,8 +278,8 @@
 				E81761071E2CB330001476E0 /* WebViewController.m */,
 				E81760FF1E2C9C0F001476E0 /* LJZUnArchive.h */,
 				E81761001E2C9C0F001476E0 /* LJZUnArchive.m */,
+				A97CD68724108D6800CA4B39 /* 归档.zip */,
 				E81761021E2C9CB2001476E0 /* eclipse.rar */,
-				E81761031E2C9CB2001476E0 /* 归档.zip */,
 				E817610C1E2E0AB1001476E0 /* example_pwd.rar */,
 				E817610D1E2E0AB1001476E0 /* example.7z */,
 				E817610E1E2E0AB1001476E0 /* Zip_Example_pwd.zip */,
@@ -577,7 +577,7 @@
 				TargetAttributes = {
 					E817602F1E2C944E001476E0 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = QW9Z5KHRK8;
+						DevelopmentTeam = XM949TYWMN;
 						ProvisioningStyle = Automatic;
 					};
 					E81760481E2C944E001476E0 = {
@@ -597,6 +597,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -617,11 +618,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81761051E2C9CB2001476E0 /* 归档.zip in Resources */,
 				E81761041E2C9CB2001476E0 /* eclipse.rar in Resources */,
 				E81760431E2C944E001476E0 /* LaunchScreen.storyboard in Resources */,
 				E81760401E2C944E001476E0 /* Assets.xcassets in Resources */,
 				E81761111E2E0AB1001476E0 /* Zip_Example_pwd.zip in Resources */,
+				A97CD68824108D6800CA4B39 /* 归档.zip in Resources */,
 				E817610F1E2E0AB1001476E0 /* example_pwd.rar in Resources */,
 				E81761101E2E0AB1001476E0 /* example.7z in Resources */,
 				E817603E1E2C944E001476E0 /* Main.storyboard in Resources */,
@@ -825,7 +826,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QW9Z5KHRK8;
+				DEVELOPMENT_TEAM = XM949TYWMN;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -845,7 +846,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QW9Z5KHRK8;
+				DEVELOPMENT_TEAM = XM949TYWMN;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -926,6 +927,7 @@
 				E817605F1E2C944E001476E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E81760601E2C944E001476E0 /* Build configuration list for PBXNativeTarget "LJZArchiveDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -934,6 +936,7 @@
 				E81760621E2C944E001476E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E81760631E2C944E001476E0 /* Build configuration list for PBXNativeTarget "LJZArchiveDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -942,6 +945,7 @@
 				E81760651E2C944E001476E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
